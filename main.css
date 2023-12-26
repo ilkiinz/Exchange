@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    padding-left: 136px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 60px;
+    background-color:#212529;
+    height: 80px;
+    width: 100%;
+}
+
+.logo{
+color: #FD0;
+font-family: Lexend;
+font-size: 16px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.menu p{
+color: #FFF;
+font-family: Lexend;
+font-size: 14px;
+}
+
+.menu p:hover{
+    color: #FD0;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-cont{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button{
+    font-family: Lexend;
+    font-size: 14px; 
+}
+
+.first-btn{
+background-color: #212529;
+color: #FD0;
+display: flex;
+width: 112px;
+padding: 8px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid #FD0;
+}
+
+.first-btn:hover{
+    transition: 1s;
+    background-color: #FD0;
+    color: #212529;
+}
+
+.second-btn{
+display: inline-flex;
+padding: 8px 30px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 4px;
+border: 1px solid #FD0;
+background: #FD0;
+}
+
+.second-btn:hover{
+    transition: 1s;
+    background-color: #212529;
+    color: #FD0;
+}
+
+.main-cont{
+    background: #EBECE7;
+    width: 100%;
+    height: 140vh;
+    padding-left: 136px;
+    display: flex;
+    flex-direction: row;
+}
+
+.blockFirst{
+    display: flex;
+    flex-direction: column;
+    padding-top: 182px;
+}
+
+#fast{
+color: #212529;
+font-family: Lexend;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.sml-txt{
+color: #212529;
+font-family: Lexend;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+opacity: 0.5;
+margin-top: 20px;
+}
