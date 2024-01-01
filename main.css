@@ -1,122 +1,213 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
-    padding-left: 136px;
+.navbar {
+    padding-left: 120px;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 60px;
-    background-color:#212529;
+    background-color: #212529;
     height: 80px;
     width: 100%;
 }
 
-.logo{
-color: #FD0;
-font-family: Lexend;
-font-size: 16px;
+.logo {
+    color: #FD0;
+    font-family: Lexend;
+    font-size: 16px;
 }
 
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     gap: 25px;
 }
 
-.menu p{
-color: #FFF;
-font-family: Lexend;
-font-size: 14px;
+.menu p {
+    color: #FFF;
+    font-family: Lexend;
+    font-size: 14px;
 }
 
-.menu p:hover{
+.menu p:hover {
     color: #FD0;
     transition: 1s;
     cursor: pointer;
 }
 
-.btn-cont{
+.btn-cont {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
-button{
+button {
     font-family: Lexend;
-    font-size: 14px; 
+    font-size: 14px;
 }
 
-.first-btn{
-background-color: #212529;
-color: #FD0;
-display: flex;
-width: 112px;
-padding: 8px 30px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 4px;
-border: 1px solid #FD0;
+.first-btn {
+    background-color: #212529;
+    color: #FD0;
+    display: flex;
+    width: 112px;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #FD0;
 }
 
-.first-btn:hover{
+.first-btn:hover {
     transition: 1s;
     background-color: #FD0;
     color: #212529;
 }
 
-.second-btn{
-display: inline-flex;
-padding: 8px 30px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-border-radius: 4px;
-border: 1px solid #FD0;
-background: #FD0;
+.second-btn {
+    display: inline-flex;
+    padding: 8px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    border: 1px solid #FD0;
+    background: #FD0;
 }
 
-.second-btn:hover{
+.second-btn:hover {
     transition: 1s;
     background-color: #212529;
     color: #FD0;
 }
 
-.main-cont{
+.main-cont {
     background: #EBECE7;
     width: 100%;
-    height: 140vh;
-    padding-left: 136px;
+    height: 100vh;
+    padding-left: 100px;
     display: flex;
     flex-direction: row;
+    gap: 75px;
 }
 
-.blockFirst{
+.blockFirst {
     display: flex;
     flex-direction: column;
-    padding-top: 182px;
+    padding-top: 162px;
 }
 
-#fast{
+#fast {
+    color: #212529;
+    font-family: Lexend;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.sml-txt {
+    color: #212529;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.5;
+    margin-top: 20px;
+}
+
+.main-list-block {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.blc-cont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    padding-left: 16px;
+    width: 200px;
+    height: 150px;
+    gap: 8px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blc-cont img{
+width: 37px;
+height: 60px;
+}
+
+.blc-cont h1{
 color: #212529;
 font-family: Lexend;
-font-size: 40px;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.blc-cont p{
+opacity: 0.4;
+width: 175px;
+color: #212529;
+font-family: Lexend;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.blockSec{
+display: flex;
+flex-direction: column;
+margin-top: 45px;
+width: 468px;
+height: 605px;
+border-radius: 4px;
+background: #FFF;
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blockSec h2{
+text-align: center;
+color: #212529;
+font-family: Lexend;
+font-size: 26px;
+padding-top: 35px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
 }
 
-.sml-txt{
-color: #212529;
-font-family: Lexend;
-font-size: 14px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-opacity: 0.5;
-margin-top: 20px;
+.blockSec p{
+    text-align: center;
+    color: #FD0;
+    font-family: Lexend;
+    font-size: 20px;
+    padding-top: 25px;
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    }
+
+#inp{
+    margin: auto;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-self: center;
+    gap: 40px;
 }
