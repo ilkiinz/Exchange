@@ -141,54 +141,55 @@ button {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 
-.blc-cont img{
-width: 37px;
-height: 60px;
+.blc-cont img {
+    width: 37px;
+    height: 60px;
 }
 
-.blc-cont h1{
-color: #212529;
-font-family: Lexend;
-font-size: 14px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+.blc-cont h1 {
+    color: #212529;
+    font-family: Lexend;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
-.blc-cont p{
-opacity: 0.4;
-width: 175px;
-color: #212529;
-font-family: Lexend;
-font-size: 12px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.blc-cont p {
+    opacity: 0.4;
+    width: 175px;
+    color: #212529;
+    font-family: Lexend;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.blockSec{
-display: flex;
-flex-direction: column;
-margin-top: 45px;
-width: 468px;
-height: 605px;
-border-radius: 4px;
-background: #FFF;
-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+.blockSec {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 45px;
+    width: 468px;
+    height: 605px;
+    border-radius: 4px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
 }
 
-.blockSec h2{
-text-align: center;
-color: #212529;
-font-family: Lexend;
-font-size: 26px;
-padding-top: 35px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+.blockSec h2 {
+    text-align: center;
+    color: #212529;
+    font-family: Lexend;
+    font-size: 26px;
+    padding-top: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
-.blockSec p{
+.blockSec p {
     text-align: center;
     color: #FD0;
     font-family: Lexend;
@@ -198,16 +199,40 @@ line-height: normal;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
-    }
+}
 
-#inp{
+input {
+    text-align: center;
+    height: 30px;
+    margin: auto;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+
+select {
+    background-color: #212529;
+    color: #FD0;
     margin: auto;
 }
 
-.form{
+.calculate-btn {
+    margin: auto;
+    width: 60%;
+    height: 38px;
+    border-radius: 25px;
+    background: #FD0;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.05);
+}
+
+.calculate-btn:hover {
+    transition: 0.5s;
+    background: #212529;
+    color: #FD0;
+}
+
+.form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    justify-self: center;
     gap: 40px;
 }
